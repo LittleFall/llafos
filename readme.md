@@ -1,15 +1,17 @@
 # llafos
 
-## build
+A practice operating system build by rust.
 
-build and run in bare metal environment
+## build
+build and run in bare metal environment.
+
 ```shell
 cargo run
 ```
 
-
+This command requires `qemu` and should install first, for example, `brew install qemu` in macos.
 
 ## thanks
 
-thanks to https://os.phil-opp.com/freestanding-rust-binary/#summary
+Thanks to https://os.phil-opp.com/  , the great tutorial. 
 
