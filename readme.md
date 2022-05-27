@@ -3,7 +3,7 @@
 A practice operating system build by rust.
 
 ## command
-These commands requires `qemu` and should install first, for example, `brew install qemu` in macos.
+These commands requires `qemu` which should be installed first, for example, `brew install qemu` in macos.
 
 build and run in bare metal environment
 ```shell
