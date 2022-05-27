@@ -1,0 +1,15 @@
+[package]
+name = "llafos"
+version = "0.1.0"
+edition = "2018"
+authors = ["Zhi Qi <qizhi.llaf@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
